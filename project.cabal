@@ -1,0 +1,25 @@
+Name:                 ProjectName
+Version:              0.0
+Build-type:           Simple
+Synopsis:             
+Description:          
+
+License:              BSD3
+License-file:         LICENSE
+Author:               
+Maintainer:           
+Build-Depends:        base
+Cabal-version:        >= 1.2
+category:             
+homepage:             
+data-files:           changelog.md, known-issues.md, Nemesis
+
+Library            
+ 
+  ghc-options:        -Wall -threaded
+  
+  build-depends:        
+                      
+  hs-source-dirs:     src
+  exposed-modules:    
+  other-modules:       

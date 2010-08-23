@@ -1,0 +1,21 @@
+Name:                 template
+Version:              2009.10.30
+Build-type:           Simple
+Synopsis:             
+Description:
+        
+License:              BSD3
+License-file:         LICENSE
+Author:               Wang, Jinjing
+Maintainer:           Wang, Jinjing <nfjinjing@gmail.com>
+Build-Depends:        base
+Cabal-version:        >= 1.2
+category:             Web
+homepage:             
+data-files:           readme.md, changelog.md
+
+library
+  ghc-options: -Wall
+  build-depends: base >= 3 && < 5
+  hs-source-dirs: src/
+  exposed-modules:  

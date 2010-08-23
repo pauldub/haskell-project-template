@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*.o
+*.hi
+*.exe
+
+/_darcs
+
+manifest
+.nemesis
