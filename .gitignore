@@ -1,10 +1,26 @@
-*.swp
-*.swo
-*.o
+# xcode noise
+xcodeproj/build/*
+*.pbxuser
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
 *.hi
-*.exe
-
-/_darcs
-
-manifest
+*.o
+bin
 .nemesis
+dist
+build
+*.a
+*_stub.c
+*_stub.h
+
+
+xcuserdata/
+project.xcworkspace
+
+.virthualenv/
