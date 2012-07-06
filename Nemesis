@@ -5,6 +5,13 @@ nemesis = do
     , "**/*.o"
     , "**/*_stub.h"
     ]
+  
+  desc "prepare cabal dist"
+  task "dist" - do
+    sh "cabal clean"
+    sh "cabal configure"
+    sh "cabal sdist"
+
     
   desc "interactive console"
   task "i" - do
