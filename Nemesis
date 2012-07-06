@@ -8,7 +8,7 @@ nemesis = do
     
   desc "interactive console"
   task "i" - do
-    sh "ghci -src src/Main.hs"
+    sh "ghci -isrc src/Main.hs"
 
   
 
